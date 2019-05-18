@@ -243,18 +243,6 @@ input[type=submit] {
 		margin-bottom: 80px;
 	}
 
-
-	aside {
-
-		margin-top: 50px;
-		margin-right: 0px;
-		width: 99.5%;
-	}
-
-	.aside-content {
-
-		margin-bottom: 30px;
-	}
 }
 @media screen (min-width: 640px) and (max-width: 768px) {
 
@@ -276,13 +264,6 @@ input[type=submit] {
 		margin-right: 0px;
 		margin-left: 0px;
 		padding-bottom: 55px;
-	}
-	
-	aside {
-
-		margin-top: 50px;
-		margin-right: 0px;
-		width: 99.5%;
 	}
 
 }
@@ -306,17 +287,6 @@ input[type=submit] {
 		margin-right: 0px;
 		margin-left: 50px;
 	}
-
-
-	aside {
-
-		margin-top: 150px;
-		margin-right: 50px;
-		width: 36%;
-		float: right;
-	}
-
-
  
 }
 @media screen (max-width: 980px) {
