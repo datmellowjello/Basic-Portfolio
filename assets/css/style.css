@@ -215,62 +215,54 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+@media screen and (max-width: 980px) {
 
+  nav {
+    text-align: center;
+    float: right;
+    margin-right: 40px; }
+  }
+@media screen and (max-width: 768px) {
+	nav {
+    text-align: center;
+    float: right;
+    margin-right: 60px;
+    }
+    nav a {
+      float: right;
+    }
+    h1 {
+      margin-left: 20px;
+    }
+    
+    #logo {
+      float: left;
+      width: 35%;  
+    }
+    .auth-image {
+      width: 400px;
+    }
+}
 @media screen and (max-width: 640px) {
 	nav {
-
-		margin-right: 20px;
-	}
+  text-align: center;
+  margin-right: 40px;
+  }
+  nav a {
+    margin-right: 40px;
+    text-align: center;
+  }
 	h1 {
 
 		margin-left: 20px;
   }
-  
-  a {
-    width: 100%;
-  }
   #logo {
+    float: right;
     width: 100%;
+  }
+  .auth-image {
     float: none;
-  }
-	#masthead {
-
-		width: 100%;
-		float: none;
-		margin-top: 150px;
-		margin-right: 0px;
-		margin-left: 0px;
-		padding-bottom: 55px;
-	}
-
-}
-@media screen and (max-width: 768px) {
-
-	nav {
-
-		margin-right: 60px;
-	}
-
-	h1 {
-
-		margin-left: 60px;
-	}
-
-	.main {
-
-		width: 45%;
-		float: left;
-		margin-top: 150px;
-		margin-right: 0px;
-		margin-left: 50px;
-	}
- 
-}
-@media screen and (max-width: 980px) {
-
-  body {
-    width: 100%
-  }
-  nav {
     width: 100%;
   }
+
+}
